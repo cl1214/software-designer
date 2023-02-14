@@ -2,6 +2,7 @@ package com.exam.datastructure.sort;
 
 import java.util.Arrays;
 import java.util.Random;
+
 /**
  * @description 算法校验器
  * @author chenlin

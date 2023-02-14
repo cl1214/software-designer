@@ -1,4 +1,5 @@
 package com.exam.datastructure.sort;
+
 /**
  * @description 冒泡排序
  * @author chenlin
@@ -14,7 +15,7 @@ public class Bubble implements Sort {
                 if (arr[j + 1] < arr[j]) {
                     int tem = arr[j];
                     arr[j] = arr[j + 1];
-                    arr [j + 1] = tem;
+                    arr[j + 1] = tem;
                     sorted = false;
                 }
             }
