@@ -1,7 +1,9 @@
-package com.purchase;
+package com.exam.datastructure.sort.excel;
+
+import lombok.Data;
 
 import java.util.Date;
-@lombok.Data
+@Data
 public class StepData {
     /**
      * 流程名称

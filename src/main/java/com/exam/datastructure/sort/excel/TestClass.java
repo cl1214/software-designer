@@ -1,17 +1,17 @@
-package com.purchase;
+package com.exam.datastructure.sort.excel;
 
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.write.metadata.WriteSheet;
 import com.alibaba.excel.write.metadata.fill.FillConfig;
-import com.purchase.excel.strategy.StrategyDemandInventoryItemExport;
+import com.alibaba.excel.write.metadata.fill.FillWrapper;
 
 import java.util.*;
 
 public class TestClass {
 
     public static void main(String[] args) {
-        String template = "D:\\战略审批单模板.xlsx";
+        String template = "D:\\战略采购申购单模板.xlsx";
 
         //创建workBook
         ExcelWriter workBook = EasyExcel.write("D:\\Excel-综合填充.xlsx").withTemplate(template).build();
@@ -23,18 +23,21 @@ public class TestClass {
         //准备单组和数据
         Map<String,String> map = new HashMap<>();
         map.put("demandName", "2023/05战略采购需求清单");
-        map.put("demandName1", "2023/05战略采购需求清单");
+        map.put("subscribeName", "YQJF项目9G2申购单2001");
+        map.put("initiatorName", "徐可洋");
+        map.put("initiationTime", "2023-06-13 13:03");
 
         List<StrategyDemandInventoryItemExport> list = init();
         List<StepData> process = initProcess();
-        workBook.fill(list, fillConfig, sheet);
-       // workBook.fill(new FillWrapper("data1", list), fillConfig, sheet);
+       // workBook.fill(list, fillConfig, sheet);
+        workBook.fill(new FillWrapper("subscribeItem", list), fillConfig, sheet);
 
         workBook.fill(map, sheet);
 
 
-        //workBook.fill(new FillWrapper("data2", process), sheet);
+        workBook.fill(new FillWrapper("process", process), sheet);
         workBook.finish();
+
     }
 
     private static List<StrategyDemandInventoryItemExport> init() {
@@ -50,7 +53,7 @@ public class TestClass {
     }
     private static List<StepData> initProcess() {
         List<StepData> result = new ArrayList<>();
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 3; i++) {
             StepData item = new StepData();
             item.setHandlerName("处理人" + i);
             item.setStepDesc("审批节点" + i);

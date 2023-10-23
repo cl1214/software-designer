@@ -14,7 +14,7 @@ public class Detector {
         // 用于生成随机数
         Random random = new Random();
         // 样本容量
-        int sampleSize = 10;
+        int sampleSize = 100;
         // 校验的次数
         int frequency = 100;
         for (int i = 0; i < frequency; i++) {
