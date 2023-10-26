@@ -9,18 +9,10 @@
     <bookmark url="file://$PROJECT_DIR$/../purchase-management/purchase-provider/src/main/java/com/purchase/service/SubscribeService.java" description="down" line="128" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10841409-2933-465b-a56b-91ef81a1bbe6" name="Default Changelist" comment="格式调整">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java" afterDir="false" />
+    <list default="true" id="10841409-2933-465b-a56b-91ef81a1bbe6" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/ExcelDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/MyHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/PdfUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/StepData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/StrategyDemandInventoryItemExport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/TestClass1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/excel/TestForExcel2PDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +312,7 @@
       <workItem from="1686722687085" duration="8000" />
       <workItem from="1686722895222" duration="1715000" />
       <workItem from="1686731332787" duration="680000" />
-      <workItem from="1698045577468" duration="43399000" />
+      <workItem from="1698045577468" duration="60517000" />
     </task>
     <task id="LOCAL-00001" summary="格式调整">
       <created>1676369740810</created>
@@ -336,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698045588040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <created>1698228721096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698228721096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -421,6 +420,31 @@
             </State>
           </value>
         </entry>
+        <entry key="8ca7e765-f5da-4a00-a4ab-1af8e034b419">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/work/workspace/software-designer/src/main/java" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -440,6 +464,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8ca7e765-f5da-4a00-a4ab-1af8e034b419" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -457,34 +486,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="格式调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式调整" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[206]反转链表.java</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
-          <line>29</line>
+          <line>33</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -492,6 +517,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/software_designer$ListNode.ic" NAME="ListNode Coverage Results" MODIFIED="1698306119952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.exam.datastructure.sort.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
