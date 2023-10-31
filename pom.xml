@@ -40,14 +40,6 @@
             <artifactId>itextpdf</artifactId>
             <version>5.2.0</version>
         </dependency>
-        <dependency>
-            <groupId>aspose</groupId>
-            <artifactId>aspose-cells</artifactId>
-            <version>8.5.2</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/aspose-cells-8.5.2.jar</systemPath>
-        </dependency>
-
     </dependencies>
 
     <build>

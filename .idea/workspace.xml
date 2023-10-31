@@ -11,7 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="10841409-2933-465b-a56b-91ef81a1bbe6" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/Detector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +84,16 @@
         <option name="userSettingsFile" value="D:\software\apache-maven-3.5.4\conf\settings - 副本.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="aiit" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -102,6 +115,9 @@
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
@@ -184,17 +200,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/work/workspace/software-designer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chenlin/Desktop/leetcode-editor-8.7 (3).zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\workspace\software-designer\src\main\resources" />
@@ -283,9 +302,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ListNode" />
+        <item itemvalue="Application.TestForExcel2PDF" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.TestClass1" />
-        <item itemvalue="Application.TestForExcel2PDF" />
         <item itemvalue="Application.Heap" />
       </list>
     </recent_temporary>
@@ -312,7 +331,17 @@
       <workItem from="1686722687085" duration="8000" />
       <workItem from="1686722895222" duration="1715000" />
       <workItem from="1686731332787" duration="680000" />
-      <workItem from="1698045577468" duration="60517000" />
+      <workItem from="1698045577468" duration="61447000" />
+      <workItem from="1698314652963" duration="1070000" />
+      <workItem from="1698372966480" duration="74000" />
+      <workItem from="1698377651811" duration="949000" />
+      <workItem from="1698387698005" duration="497000" />
+      <workItem from="1698388205709" duration="115000" />
+      <workItem from="1698388430738" duration="74000" />
+      <workItem from="1698388521914" duration="2165000" />
+      <workItem from="1698391722476" duration="6470000" />
+      <workItem from="1698399129047" duration="3208000" />
+      <workItem from="1698632558138" duration="6764000" />
     </task>
     <task id="LOCAL-00001" summary="格式调整">
       <created>1676369740810</created>
@@ -335,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698228721096</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1698313780252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698313780252</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -383,12 +419,13 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
+    <option name="COLUMN_ID_ORDER">
       <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
       </list>
     </option>
   </component>
@@ -493,10 +530,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[206]反转链表.java</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
           <line>28</line>
           <option name="timeStamp" value="17" />
@@ -505,11 +538,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
           <line>33</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exam/datastructure/sort/ListNode.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

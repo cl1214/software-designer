@@ -155,11 +155,34 @@ public class ListNode {
         return result;
     }
 
+    public static int maxSubArray(int[] nums) {
+        nums = new int[] {-2,1,-3,4,-1,2,1,-5,4};
+        int max = nums[0];
+        for (int j = 0; j < nums.length; j++) {
+            for (int i = j; i < nums.length; i++) {
+                int sum = getMax(j, i, nums);
+                if (sum > max) {
+                    max = sum;
+                }
+            }
+        }
+        return max;
+    }
+
+    private static int getMax(int curIndex, int index, int[] nums) {
+        if (index == curIndex) {
+            return nums[index];
+        }
+        int num = nums[index];
+        return getMax(curIndex, index - 1, nums) + num;
+    }
+
     public static void main(String[] args) {
         System.out.println(longestCommonPrefix(new String[]{"ab","a", ""}));
         System.out.println(longestCommonPrefix(new String[]{"flower","flow","flight"}));
         System.out.println(longestCommonPrefix(new String[]{"flower","flower","flower"}));
         System.out.println(longestCommonPrefix(new String[]{"dog","racecar","car"}));
+        System.out.println(maxSubArray(null));
 
     }
 }

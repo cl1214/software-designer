@@ -29,11 +29,11 @@ public class Detector {
             System.arraycopy(arr1, 0, arr2, 0, arr1.length);
             System.arraycopy(arr1, 0, arr3, 0, arr1.length);
             Arrays.sort(arr1);
-            //这里让你的类继承BaseSort，然后重写sort方法，就是调用你的排序算法啦
+            // 这里让你的类继承BaseSort，然后重写sort方法，就是调用你的排序算法啦
             sort.sort(arr2);
             for (int k = 0; k < arr1.length; k++) {
                 if(arr1[k] != arr2[k]) {
-                    //如果排序的结果出现不一致，表示算法错误
+                    // 如果排序的结果出现不一致，表示算法错误
                     System.out.println("校验失败");
                     return false;
                 }
